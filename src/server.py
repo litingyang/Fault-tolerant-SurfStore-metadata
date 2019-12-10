@@ -136,15 +136,19 @@ def updatefile(filename, version, hashlist):
                 prevLogTerm = log[prevLogIndex][0]
                 print("prevLogIndex: ", prevLogIndex)
                 print("prevLogTerm: ", prevLogTerm)
-                t, midx, success, c = s.surfstore.appendEntries(currentTerm, servernum, prevLogIndex, prevLogTerm, [newLog], commitIndex)
+                try:
+                    t, midx, success, c = s.surfstore.appendEntries(currentTerm, servernum, prevLogIndex, prevLogTerm, [newLog], commitIndex)
 
-                # return value: term, matchIndex, successOrNot
-                print("Append Return | term: ", t, " matchIndex: ", midx, " Success: ", s)
-                if not c:
-                    matchIndex[i] = midx
-                    nextIndex[i] = matchIndex[i]
-                    if(success):
-                        commit_ct += 1
+                    # return value: term, matchIndex, successOrNot
+                    print("Append Return | term: ", t, " matchIndex: ", midx, " Success: ", s)
+                    if not c:
+                        matchIndex[i] = midx
+                        nextIndex[i] = matchIndex[i]
+                        if(success):
+                            commit_ct += 1
+
+                except Exception as e:
+                    print("Exception: ", str(e))
                 
                 # [TODO] over majority --> commit
                 
@@ -609,10 +613,13 @@ def election_timeout():
             if i!= servernum:
                 s = s_connect[i]
                 print("RequestVote to ", s)
-                term, success, c = s.surfstore.requestVote(currentTerm, servernum, len(log), log[-1][0])
-                print("Receive vote from ", s, "is ", success)
-                if(success):
-                    vote_count += 1
+                try:
+                    term, success, c = s.surfstore.requestVote(currentTerm, servernum, len(log), log[-1][0])
+                    print("Receive vote from ", s, "is ", success)
+                    if(success):
+                        vote_count += 1
+                except Exception as e:
+                    print("Exception: ", str(e))
         if vote_count > maxnum//2:
             #change to leader
             _isCandidate = False
@@ -662,10 +669,13 @@ def vote_timeout():
             if i!= servernum:
                 s = s_connect[i]
                 print("RequestVote to ", s)
-                term, success, c = s.surfstore.requestVote(currentTerm, servernum, len(log), log[-1][0])
-                print("Receive vote from ", s, "is ", success)
-                if(success):
-                    vote_count += 1
+                try:
+                    term, success, c = s.surfstore.requestVote(currentTerm, servernum, len(log), log[-1][0])
+                    print("Receive vote from ", s, "is ", success)
+                    if(success):
+                        vote_count += 1
+                except Exception as e:
+                    print("Exception: ", str(e))
         if vote_count > maxnum//2:
             #change to leader
             _isCandidate = False
@@ -709,11 +719,14 @@ def heartbeatTimeout():
                 s = s_connect[i]
                 print("appendEntries to ", s)
                 #appendEntries(, term, leaderId, prevLogIndex, prevLogTerm, entries, leaderCommit):
-                t, midx, success, c = s.surfstore.appendEntries(currentTerm,servernum, -1, -1, [], commitIndex)
-                print("Heartbeat Return | term: ", t, " matchIndex: ", midx, " Success: ", s)
-                if not c:
-                    matchIndex[i] = midx
-                    nextIndex[i] = matchIndex[i] + 1
+                try:
+                    t, midx, success, c = s.surfstore.appendEntries(currentTerm,servernum, -1, -1, [], commitIndex)
+                    print("Heartbeat Return | term: ", t, " matchIndex: ", midx, " Success: ", s)
+                    if not c:
+                        matchIndex[i] = midx
+                        nextIndex[i] = matchIndex[i] + 1
+                except Exception as e:
+                    print("Exception: ", str(e))                
 
     
 if __name__ == "__main__":

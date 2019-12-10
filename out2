@@ -1,0 +1,1358 @@
+serverlist: ['localhost:8080']
+serverlist: ['localhost:8080', 'localhost:8081']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083', 'localhost:8084']
+all_sesrverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083', 'localhost:8084']
+conect: [<ServerProxy for localhost:8080/RPC2>, <ServerProxy for localhost:8081/RPC2>, None, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+Attempting to start XML-RPC Server...
+localhost 8082
+Started successfully.
+Accepting requests. (Halt program to stop.)
+======= Vote Request to Follower =======
+Candidate term:  2
+Candidate id:    1
+Current term:    1
+Last log index:  1
+Last log term:   1
+======= Vote Request to Follower =======
+Candidate term:  3
+Candidate id:    4
+Current term:    2
+Last log index:  1
+Last log term:   1
+======= Vote Request to Follower =======
+Candidate term:  4
+Candidate id:    3
+Current term:    3
+Last log index:  1
+Last log term:   1
+election_timeout
+myterm 4
+servernum: 2 follower to candidate
+currentTerm: 5
+======= Vote Request to Candidate ======= candidatenum: 2
+Candidate term:  5
+Candidate id:    0
+Current term:    5
+Last log index:  1
+Last log term:   1
+[<ServerProxy for localhost:8080/RPC2>, <ServerProxy for localhost:8081/RPC2>, None, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Receive vote from  <ServerProxy for localhost:8080/RPC2> is  False
+RequestVote to  <ServerProxy for localhost:8081/RPC2>
+Candidate  2 receive a heartbeat
+servernum: 2 candidate to follower
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+IsLeader()
+Restore()
+IsLeader()
+IsLeader()
+IsCrashed()
+Follower  2 receive a heartbeat
+I'm a follower, don't ask me file version
+I'm a follower, don't ask me file version
+Follower  2 receive a heartbeat
+Old log:  [[1, '', 0]]
+Clean log:  [[1, '', 0]]
+New log:  [[1, '', 0], [5, 'Test.txt', 3]]
+True
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+Follower  2 receive a heartbeat
+election_timeout
+myterm 5
+servernum: 2 follower to candidate
+currentTerm: 6
+[<ServerProxy for localhost:8080/RPC2>, <ServerProxy for localhost:8081/RPC2>, None, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  2
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am 

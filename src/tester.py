@@ -14,6 +14,8 @@ if __name__ == "__main__":
 		client.append(xmlrpc.client.ServerProxy('http://localhost:8080'))
 		client.append(xmlrpc.client.ServerProxy('http://localhost:8081'))
 		client.append(xmlrpc.client.ServerProxy('http://localhost:8082'))
+		client.append(xmlrpc.client.ServerProxy('http://localhost:8083'))
+		client.append(xmlrpc.client.ServerProxy('http://localhost:8084'))
 		# Test ping
 		'''
 		for i in client:

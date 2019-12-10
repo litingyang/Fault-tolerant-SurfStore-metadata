@@ -1,0 +1,1983 @@
+serverlist: ['localhost:8080']
+serverlist: ['localhost:8080', 'localhost:8081']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083']
+serverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083', 'localhost:8084']
+all_sesrverlist: ['localhost:8080', 'localhost:8081', 'localhost:8082', 'localhost:8083', 'localhost:8084']
+conect: [<ServerProxy for localhost:8080/RPC2>, None, <ServerProxy for localhost:8082/RPC2>, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+Attempting to start XML-RPC Server...
+localhost 8081
+Started successfully.
+Accepting requests. (Halt program to stop.)
+election_timeout
+myterm 1
+servernum: 1 follower to candidate
+currentTerm: 2
+[<ServerProxy for localhost:8080/RPC2>, None, <ServerProxy for localhost:8082/RPC2>, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Receive vote from  <ServerProxy for localhost:8080/RPC2> is  True
+RequestVote to  <ServerProxy for localhost:8082/RPC2>
+Receive vote from  <ServerProxy for localhost:8082/RPC2> is  True
+RequestVote to  <ServerProxy for localhost:8083/RPC2>
+Receive vote from  <ServerProxy for localhost:8083/RPC2> is  True
+RequestVote to  <ServerProxy for localhost:8084/RPC2>
+Receive vote from  <ServerProxy for localhost:8084/RPC2> is  True
+servernum: 1 candidate to leader
+======= Vote Request to Leader =======, leadernum: 1
+Candidate term:  3
+Candidate id:    4
+Current term:    2
+Last log index:  1
+Last log term:   1
+servernum: 1 leader to follower
+======= Vote Request to Follower =======
+Candidate term:  4
+Candidate id:    3
+Current term:    3
+Last log index:  1
+Last log term:   1
+======= Vote Request to Follower =======
+Candidate term:  5
+Candidate id:    0
+Current term:    4
+Last log index:  1
+Last log term:   1
+======= Vote Request to Follower =======
+Candidate term:  5
+Candidate id:    2
+Current term:    5
+Last log index:  1
+Last log term:   1
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+IsLeader()
+Restore()
+IsLeader()
+IsLeader()
+IsCrashed()
+Follower  1 receive a heartbeat
+I'm a follower, don't ask me file version
+I'm a follower, don't ask me file version
+Follower  1 receive a heartbeat
+Old log:  [[1, '', 0]]
+Clean log:  [[1, '', 0]]
+New log:  [[1, '', 0], [5, 'Test.txt', 3]]
+True
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+Follower  1 receive a heartbeat
+election_timeout
+myterm 5
+servernum: 1 follower to candidate
+currentTerm: 6
+[<ServerProxy for localhost:8080/RPC2>, None, <ServerProxy for localhost:8082/RPC2>, <ServerProxy for localhost:8083/RPC2>, <ServerProxy for localhost:8084/RPC2>]
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  2
+Candidate id:    0
+Current term:    21
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  2
+Candidate id:    0
+Current term:    21
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  3
+Candidate id:    0
+Current term:    22
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  3
+Candidate id:    0
+Current term:    23
+Last log index:  1
+Last log term:   1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  4
+Candidate id:    0
+Current term:    23
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  4
+Candidate id:    0
+Current term:    23
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  5
+Candidate id:    0
+Current term:    24
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  5
+Candidate id:    0
+Current term:    24
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  6
+Candidate id:    0
+Current term:    25
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  6
+Candidate id:    0
+Current term:    25
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  7
+Candidate id:    0
+Current term:    27
+Last log index:  1
+Last log term:   1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  7
+Candidate id:    0
+Current term:    27
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  8
+Candidate id:    0
+Current term:    28
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  8
+Candidate id:    0
+Current term:    28
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  9
+Candidate id:    0
+Current term:    29
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  9
+Candidate id:    0
+Current term:    29
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  10
+Candidate id:    0
+Current term:    30
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  10
+Candidate id:    0
+Current term:    30
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  11
+Candidate id:    0
+Current term:    31
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  11
+Candidate id:    0
+Current term:    31
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  12
+Candidate id:    0
+Current term:    32
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  12
+Candidate id:    0
+Current term:    32
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  13
+Candidate id:    0
+Current term:    33
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  13
+Candidate id:    0
+Current term:    33
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  14
+Candidate id:    0
+Current term:    34
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  14
+Candidate id:    0
+Current term:    34
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  15
+Candidate id:    0
+Current term:    35
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  15
+Candidate id:    0
+Current term:    35
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  16
+Candidate id:    0
+Current term:    36
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  16
+Candidate id:    0
+Current term:    36
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  17
+Candidate id:    0
+Current term:    37
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  17
+Candidate id:    0
+Current term:    37
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  18
+Candidate id:    0
+Current term:    38
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  18
+Candidate id:    0
+Current term:    38
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  19
+Candidate id:    0
+Current term:    39
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  19
+Candidate id:    0
+Current term:    39
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  20
+Candidate id:    0
+Current term:    40
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  20
+Candidate id:    0
+Current term:    40
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  21
+Candidate id:    0
+Current term:    41
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  21
+Candidate id:    0
+Current term:    41
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  22
+Candidate id:    0
+Current term:    42
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  22
+Candidate id:    0
+Current term:    42
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  23
+Candidate id:    0
+Current term:    43
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  23
+Candidate id:    0
+Current term:    43
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  24
+Candidate id:    0
+Current term:    44
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  24
+Candidate id:    0
+Current term:    44
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  25
+Candidate id:    0
+Current term:    45
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  25
+Candidate id:    0
+Current term:    45
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  26
+Candidate id:    0
+Current term:    46
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  26
+Candidate id:    0
+Current term:    46
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  27
+Candidate id:    0
+Current term:    47
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  27
+Candidate id:    0
+Current term:    47
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  28
+Candidate id:    0
+Current term:    48
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  28
+Candidate id:    0
+Current term:    48
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  29
+Candidate id:    0
+Current term:    49
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  29
+Candidate id:    0
+Current term:    49
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  30
+Candidate id:    0
+Current term:    50
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  30
+Candidate id:    0
+Current term:    50
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  31
+Candidate id:    0
+Current term:    51
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  31
+Candidate id:    0
+Current term:    51
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  32
+Candidate id:    0
+Current term:    52
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  32
+Candidate id:    0
+Current term:    52
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  33
+Candidate id:    0
+Current term:    53
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  33
+Candidate id:    0
+Current term:    53
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  34
+Candidate id:    0
+Current term:    54
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  34
+Candidate id:    0
+Current term:    54
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  35
+Candidate id:    0
+Current term:    55
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  35
+Candidate id:    0
+Current term:    55
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  36
+Candidate id:    0
+Current term:    56
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  36
+Candidate id:    0
+Current term:    56
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  37
+Candidate id:    0
+Current term:    57
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  37
+Candidate id:    0
+Current term:    57
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  38
+Candidate id:    0
+Current term:    58
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  38
+Candidate id:    0
+Current term:    58
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  39
+Candidate id:    0
+Current term:    59
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  39
+Candidate id:    0
+Current term:    59
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  40
+Candidate id:    0
+Current term:    60
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  40
+Candidate id:    0
+Current term:    60
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  41
+Candidate id:    0
+Current term:    61
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  41
+Candidate id:    0
+Current term:    61
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  42
+Candidate id:    0
+Current term:    62
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  42
+Candidate id:    0
+Current term:    62
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  43
+Candidate id:    0
+Current term:    63
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  43
+Candidate id:    0
+Current term:    63
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  44
+Candidate id:    0
+Current term:    64
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  44
+Candidate id:    0
+Current term:    64
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  45
+Candidate id:    0
+Current term:    65
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  45
+Candidate id:    0
+Current term:    65
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  46
+Candidate id:    0
+Current term:    66
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  46
+Candidate id:    0
+Current term:    66
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  47
+Candidate id:    0
+Current term:    67
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  47
+Candidate id:    0
+Current term:    67
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  48
+Candidate id:    0
+Current term:    68
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  48
+Candidate id:    0
+Current term:    69
+Last log index:  1
+Last log term:   1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  49
+Candidate id:    0
+Current term:    69
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  49
+Candidate id:    0
+Current term:    70
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  50
+Candidate id:    0
+Current term:    71
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  50
+Candidate id:    0
+Current term:    71
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  51
+Candidate id:    0
+Current term:    72
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  51
+Candidate id:    0
+Current term:    72
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  52
+Candidate id:    0
+Current term:    73
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  52
+Candidate id:    0
+Current term:    73
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  53
+Candidate id:    0
+Current term:    74
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  53
+Candidate id:    0
+Current term:    74
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  54
+Candidate id:    0
+Current term:    75
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  54
+Candidate id:    0
+Current term:    75
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  55
+Candidate id:    0
+Current term:    76
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  55
+Candidate id:    0
+Current term:    76
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  56
+Candidate id:    0
+Current term:    77
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  56
+Candidate id:    0
+Current term:    77
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  57
+Candidate id:    0
+Current term:    78
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  57
+Candidate id:    0
+Current term:    78
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  58
+Candidate id:    0
+Current term:    79
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  58
+Candidate id:    0
+Current term:    79
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  59
+Candidate id:    0
+Current term:    80
+Last log index:  1
+Last log term:   1
+======= Vote Request to Candidate ======= candidatenum: 1
+Candidate term:  59
+Candidate id:    0
+Current term:    80
+Last log index:  1
+Last log term:   1
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
+Vote timeout
+I am  1
+RequestVote to  <ServerProxy for localhost:8080/RPC2>
